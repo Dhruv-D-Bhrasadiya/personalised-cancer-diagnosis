@@ -295,14 +295,14 @@ with st.sidebar:
     - [OncoKB](https://www.oncokb.org/)
     """)
     
-    st.markdown("---")
-    st.markdown("""
-    <div style="text-align:center; font-size:0.85rem; color:#666;">
-    <strong>👨‍💻 Developer</strong><br>
-    <a href="https://www.linkedin.com/in/aditya-singh-2b319b299/" target="_blank">Aditya Singh</a><br>
-    <a href="https://github.com/AdiSinghCodes" target="_blank">GitHub Profile</a>
-    </div>
-    """, unsafe_allow_html=True)
+    # st.markdown("---")
+    # st.markdown("""
+    # <div style="text-align:center; font-size:0.85rem; color:#666;">
+    # <strong>👨‍💻 Developer</strong><br>
+    # <a href="https://www.linkedin.com/in/aditya-singh-2b319b299/" target="_blank">Aditya Singh</a><br>
+    # <a href="https://github.com/AdiSinghCodes" target="_blank">GitHub Profile</a>
+    # </div>
+    # """, unsafe_allow_html=True)
 
 # --- Main Content ---
 st.markdown("""
@@ -557,54 +557,54 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Partner Logos ---
-col1, col2, col3, col4 = st.columns(4)
+# # --- Partner Logos ---
+# col1, col2, col3, col4 = st.columns(4)
 
-with col1:
-    st.markdown("""
-    <div class="footer-logo-container">
-        <img src="https://i0.wp.com/comacc.org/wp-content/uploads/2024/03/Memorial-Sloan-Kettering-Cancer-Center.png?resize=660%2C140&ssl=1" 
-             style="max-height: 110px; width: auto; object-fit: contain;">
-    </div>
-    <p class="stCaption">Memorial Sloan Kettering</p>
-    """, unsafe_allow_html=True)
+# with col1:
+#     st.markdown("""
+#     <div class="footer-logo-container">
+#         <img src="https://i0.wp.com/comacc.org/wp-content/uploads/2024/03/Memorial-Sloan-Kettering-Cancer-Center.png?resize=660%2C140&ssl=1" 
+#              style="max-height: 110px; width: auto; object-fit: contain;">
+#     </div>
+#     <p class="stCaption">Memorial Sloan Kettering</p>
+#     """, unsafe_allow_html=True)
 
-with col2:
-    st.markdown("""
-    <div class="footer-logo-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/National_Cancer_Institute_logo.svg"
-             style="max-height: 110px; width: auto; object-fit: contain;">
-    </div>
-    <p class="stCaption">National Cancer Institute</p>
-    """, unsafe_allow_html=True)
+# with col2:
+#     st.markdown("""
+#     <div class="footer-logo-container">
+#         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/National_Cancer_Institute_logo.svg"
+#              style="max-height: 110px; width: auto; object-fit: contain;">
+#     </div>
+#     <p class="stCaption">National Cancer Institute</p>
+#     """, unsafe_allow_html=True)
 
-with col3:
-    st.markdown("""
-    <div class="footer-logo-container">
-        <img src="https://cdn.worldvectorlogo.com/logos/kaggle-1.svg" 
-             style="max-height: 110px; width: auto; object-fit: contain;">
-    </div>
-    <p class="stCaption">Kaggle Competition</p>
-    """, unsafe_allow_html=True)
+# with col3:
+#     st.markdown("""
+#     <div class="footer-logo-container">
+#         <img src="https://cdn.worldvectorlogo.com/logos/kaggle-1.svg" 
+#              style="max-height: 110px; width: auto; object-fit: contain;">
+#     </div>
+#     <p class="stCaption">Kaggle Competition</p>
+#     """, unsafe_allow_html=True)
 
-with col4:
-    st.markdown("""
-    <div class="footer-logo-container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCV78IyDXW3Lsko1cOURswL6GEmlrfB55cPQ&s" 
-             style="max-height: 110px; width: auto; object-fit: contain;">
-    </div>
-    <p class="stCaption">OncoKB Database</p>
-    """, unsafe_allow_html=True)
+# with col4:
+#     st.markdown("""
+#     <div class="footer-logo-container">
+#         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCV78IyDXW3Lsko1cOURswL6GEmlrfB55cPQ&s" 
+#              style="max-height: 110px; width: auto; object-fit: contain;">
+#     </div>
+#     <p class="stCaption">OncoKB Database</p>
+#     """, unsafe_allow_html=True)
 
-st.markdown("<br><br>", unsafe_allow_html=True)
-st.markdown("""
-<div style="text-align:center; padding:1.5rem; background:#f8f9fa; border-radius:10px;">
-    <p style="font-size:0.95rem; color:#666; margin:0;">
-        Made with ❤️ by <a href="https://www.linkedin.com/in/aditya-singh-2b319b299/" target="_blank" style="color:#667eea; text-decoration:none; font-weight:600;">Aditya Singh</a> | 
-        <a href="https://github.com/AdiSinghCodes" target="_blank" style="color:#667eea; text-decoration:none; font-weight:600;">GitHub</a>
-    </p>
-</div>
-""", unsafe_allow_html=True)
+# st.markdown("<br><br>", unsafe_allow_html=True)
+# st.markdown("""
+# <div style="text-align:center; padding:1.5rem; background:#f8f9fa; border-radius:10px;">
+#     <p style="font-size:0.95rem; color:#666; margin:0;">
+#         Made with ❤️ by <a href="https://www.linkedin.com/in/aditya-singh-2b319b299/" target="_blank" style="color:#667eea; text-decoration:none; font-weight:600;">Aditya Singh</a> | 
+#         <a href="https://github.com/AdiSinghCodes" target="_blank" style="color:#667eea; text-decoration:none; font-weight:600;">GitHub</a>
+#     </p>
+# </div>
+# """, unsafe_allow_html=True)
 
 
 
